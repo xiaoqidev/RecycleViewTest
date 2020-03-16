@@ -46,7 +46,7 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder> 
         holder.fruitName.setText(fruit.getName());
 
     }
-
+//
     @Override
     public int getItemCount() {
         return mFruitList.size();
